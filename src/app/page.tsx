@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Categorys from "@/components/Categorys";
 import Music from "@/components/Music";
 import Products from "@/components/Products";
+import Flash from "@/components/flash";
 
 
 export default function page() {
@@ -11,9 +12,11 @@ export default function page() {
     <div>
       <Navbar />
       <Hero />
+      <Flash/>
       <Categorys />
       <Products/>
       <Music />
+      
       
     </div>
   );
