@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import Categorys from "@/components/Categorys";
 import Music from "@/components/Music";
 import Products from "@/components/Products";
-import Flash from "@/components/flash";
+import Flash from '@/components/Flash';
 
 
 export default function page() {
